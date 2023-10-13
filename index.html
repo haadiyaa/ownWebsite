@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mywebsite</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- --------------------header------------------------ -->
+    <header>
+        <div class="container">
+            <h1>MyWebsite</h1>
+            <div class="subcontainer">
+                <a href="">HOME</a>
+                <a href="">ABOUT</a>
+            </div>
+        </div>
+    </header>
+    <!-- ------------------------------section1------------------------------------ -->
+    <section class="section1">
+        <div class="container1">
+            <div class="left">
+                <h2>Welcome to My First Website</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae dicta eaque eveniet, atque et placeat sequi exercitationem deleniti reiciendis mollitia laudantium enim harum inventore, alias magni? Assumenda rerum eaque amet!</p>
+                <a href="page.html">CLICK HERE</a>
+            </div>
+            <div class="right">
+                <h4>Enter your details</h4>
+                <table class="tbl" cellspacing="20px"> 
+                    <form> 
+                        <tr> 
+                            <td> <label for="name"> Name </label> </td> 
+                            <td>: <input type="text" id="name" /> </td> 
+                        </tr> 
+                        <tr> 
+                            <td><label for="email">  Nationality</label> </td> 
+                            <td>:
+                                <select name="" id="select">
+                                    <option value="Indian">Indian</option>
+                                    <option value="Chinese">Chinese</option>
+                                    <option value="Saudi">Saudi</option>
+                                    <option value="Indonesian">Indonesian</option>
+                                </select>
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <td><label for="telnum"> Address </label> </td> 
+                            <td>: <textarea name="" id="add" cols="30" rows="3"></textarea> </td> 
+                        </tr> 
+                        <tr> 
+                            <td><label for="Roll No.">  Gender </label> </td> 
+                            <td>:
+                                <input type="radio" name="gender" id="male">
+                                <label for="male">Male</label>
+                                <input type="radio" name="gender" id="female">
+                                <label for="female">female</label>
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <td><label for="telnum"> Skills </label> </td> 
+                            <td>:
+                                <input type="checkbox" id="skill1">
+                                <label for="skill1">HTML</label>
+                                <input type="checkbox" id="skill2">
+                                <label for="skill2">CSS</label>
+                                <input type="checkbox" id="skill3">
+                                <label for="skill3">Bootstrap</label>
+                            </td> 
+                        </tr> 
+                        <tr>
+                            <td colspan="2" class="btnrow">
+                                <button type="submit" value="submit" class="button">Submit</button>
+                            </td>
+                        </tr>
+                    </form> 
+                </table>
+            </div>
+        </div>
+    </section>
+    <!-- ------------------------------section2------------------------------------ -->
+    <section class="section2">
+        <h3> Singers</h3>
+        <div class="line"></div>
+        <div class="container2">
+            <div class="col1">
+                <figure>
+                    <img src="images/armaan.jpg" alt="" height="260px" width="190px">
+                    <figcaption>Armaan Malik</figcaption>
+                </figure>
+                <audio controls>
+                    <source src="images/Jab Tak (M S Dhoni - The Untold Story) 128.mp3" type="audio/mpeg" class="audio">
+                    Your browser does not support the audio tag.
+                </audio>
+            </div>
+            <div class="col1">
+                <figure>
+                    <img src="images/arijith.jpg" alt="" height="250px" width="190px">
+                    <figcaption>Arijith Singh</figcaption>
+                </figure>
+                <audio controls>
+                    <source src="images/Heeriye (feat. Arijit Singh) - Dulquer Salmaan 128 Kbps.mp3" type="audio/mpeg" class="audio">
+                    Your browser does not support the audio tag.
+                </audio>
+            </div>
+            <div class="col1">
+                <figure>
+                    <img src="images/sid.jpg" alt="" height="250px" width="190px">
+                    <figcaption>Sid Sriram</figcaption>
+                </figure>
+                <audio controls>
+                    <source src="images/Kaadhal-En-Kaviye-MassTamilan.dev.mp3" type="audio/mpeg" class="audio">
+                    Your browser does not support the audio tag.
+                </audio>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="mysecttion">
+        <div class="leftsection">
+            <iframe src="https://en.wikipedia.org/wiki/Coco_(2017_film)" frameborder="0" height="500px" width="500px"></iframe>
+        </div>
+        <div class="rightsection">
+            <video width="620" height="340" controls>
+                <source src="images/Markus Magne Rosså, Jan Martin Johnsen - Poco Loco (Fra _Coco_).mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <P>COCO(2017)</P>
+        </div>
+    </section>
+    <!----------------------------------------footer------------------------------------------------  -->
+    <footer>
+        <div class="foot">
+            <p>Contact :1234567890</p>
+            <p>Calicut, India</p>
+        </div>
+    </footer>
+
+</body>
+</html>
